@@ -100,6 +100,7 @@ module.exports = {
 	devServer: {
 		// configuration for webpack-dev-server
 		contentBase: './src/public', //source of static assets
-		port: 7000 // port to run dev-server
+		port: 7000,
+		watchContentBase: true // auto refresh browser on code change
 	}
 };

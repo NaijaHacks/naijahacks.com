@@ -6,8 +6,9 @@
 	"author": "Favour George <phavorsparks@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "webpack-dev-server --history-api-fallback --inline --progress",
-		"start:dev": "webpack-dashboard -- webpack-dev-server --history-api-fallback --inline --progress"
+		"start": "webpack-dev-server --mode development --history-api-fallback --inline --progress --open --hot",
+		"start:dev": "webpack-dashboard -- webpack-dev-server --mode development --history-api-fallback --inline --progress --open --hot",
+		"build": "webpack --mode production"
 	},
 	"devDependencies": {
 		"babel-core": "6.26.3",
