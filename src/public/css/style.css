@@ -71,6 +71,9 @@ div.description .ofleaders{
 	color: white;
 	font-size: 30px;
 }
+.reg-btn{
+	margin: auto;
+}
 @media only screen and (max-width: 768px) {
 	.description{
 font-size:19px;
