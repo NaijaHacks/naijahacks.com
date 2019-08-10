@@ -1,90 +1,138 @@
-body{
-    background-color: #262a33;
+body {
+	background-color: #262a33;
 }
-.hero2{
-    
 
+.navbg {
+	background-color: #262a33;
+	border-bottom: 1px solid #555961;
+	/*padding: 0;*/
+	/*margin:0;*/
 }
-.navbg{
-    background-color: #262a33;
-    border-bottom:1px solid #555961;
-    /*padding: 0;*/
-    /*margin:0;*/
-}
-.gaws{
+.gaws {
 	background-image: url('../img/background.png');
-	background-repeat:no-repeat;
-	background-size:100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	/*background-color: red;*/
-    width: 100%;
-    height: 100vh;
-    border-radius: 1px solid red;
+	width: 100%;
+	height: 100vh;
+	border-radius: 1px solid red;
 }
-.ml-auto{
+.ml-auto {
 	margin-right: 20%;
-	padding:10px;
+	padding: 10px;
 }
-.navbar-brand{
+.navbar-brand {
 	margin-left: 10%;
 }
-.nav-item{
-	padding-left:60px;
+.nav-item {
+	padding-left: 60px;
 }
-.nav-link{
-	color:white !important;
+.nav-link {
+	color: white !important;
 }
-.nav-button{
-	background-color:transparent;
+.nav-button {
+	background-color: transparent;
 	border: 2px solid #555961;
 	color: #555961;
-	border-radius:5px;
+	border-radius: 5px;
 	/*padding-left: 5px;
 	padding-right: 5px;*/
-
 }
-.description{
-	font-size:29px;
-text-align: left;
-margin-top: 5%;
-color: #FFFBFB;
+.description {
+	font-size: 29px;
+	text-align: left;
+	margin-top: 5%;
+	color: #fffbfb;
 }
-.description-child{
-	font-size:15px;
+.description-child {
+	font-size: 15px;
 	font-weight: 500;
 	margin-top: 2%;
 	text-align: center;
 	color: #555961;
 	margin-right: 6%;
 }
-div.description .ofleaders{
+div.description .ofleaders {
 	margin-right: 6%;
 }
-.location{
-	color: #66E348;
-	font-size:30px;
-}
-.date{
-	color: white;
-	font-size: 30px;
-}
-.venue{
-	color: white;
-	font-size: 30px;
-}
-@media only screen and (max-width: 768px) {
-	.description{
-font-size:19px;
-}
-} 
-@media only screen and (max-width: 768px) {
-.description-child{
-	font-size:15px;
-}
-} 
-@media only screen and (max-width: 600px) {
-.description-child{
-	font-size:15px;
-	margin-bottom: 5%;
-}
-} 
 
+.location {
+	color: #66e348;
+	font-size: 30px;
+}
+.date {
+	color: white;
+	font-size: 30px;
+}
+.venue {
+	color: white;
+	font-size: 30px;
+}
+
+[data-details] {
+	background: #2b2f3a;
+	margin: 2rem 0;
+}
+
+[data-detail-info] h5 {
+	font-weight: 600;
+}
+
+[data-our-challenges] h5 {
+	color: #66e348;
+	font-weight: 600;
+}
+
+[data-image-set] {
+	display: flex;
+	padding-bottom: 2rem;
+}
+
+.card_1 .img_holder {
+	background-image: url('../img/annie-spratt-GaLzDCnA5EI-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card_2 .img_holder {
+	background-image: url('../img/nana-o-LPaeGH0xHgw-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card_3 .img_holder {
+	background-image: url('../img/austin-distel-pfmKvWLDGoc-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card_4 .img_holder {
+	background-image: url('../img/curtis-potvin-r66MoMi5hgk-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media only screen and (max-width: 768px) {
+	.description {
+		font-size: 19px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.description-child {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.description-child {
+		font-size: 15px;
+		margin-bottom: 5%;
+	}
+}
