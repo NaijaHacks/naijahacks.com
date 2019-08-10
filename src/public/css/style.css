@@ -69,6 +69,58 @@ div.description .ofleaders {
 	color: white;
 	font-size: 30px;
 }
+
+[data-details] {
+	background: #2b2f3a;
+	margin: 2rem 0;
+}
+
+[data-detail-info] h5 {
+	font-weight: 600;
+}
+
+[data-our-challenges] h5 {
+	color: #66e348;
+	font-weight: 600;
+}
+
+[data-image-set] {
+	display: flex;
+	padding-bottom: 2rem;
+}
+
+.card_1 .img_holder {
+	background-image: url('../img/annie-spratt-GaLzDCnA5EI-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card_2 .img_holder {
+	background-image: url('../img/nana-o-LPaeGH0xHgw-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card_3 .img_holder {
+	background-image: url('../img/austin-distel-pfmKvWLDGoc-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card_4 .img_holder {
+	background-image: url('../img/curtis-potvin-r66MoMi5hgk-unsplash.jpg');
+	height: 20rem;
+	width: 15rem;
+	background-size: cover;
+	background-position: center center;
+}
+
 @media only screen and (max-width: 768px) {
 	.description {
 		font-size: 19px;
