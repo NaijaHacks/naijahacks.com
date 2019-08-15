@@ -87,6 +87,28 @@ div.description .ofleaders{
 .reg-btn{
 	margin: auto;
 }
+.team-section{
+	margin:auto;
+	background-color: #262a33;
+}
+.team-section h1{
+	color: #66e348;
+	text-align: center;
+	padding-top: 2%;
+}
+.team-section h2{
+	color: #66e348;
+	text-align: center;
+	padding-bottom: 2%;
+}
+.team-section h3,h5,p{
+	text-align: center;
+	color: white;
+}
+img{
+	width: 90%;
+
+}
 @media only screen and (max-width: 768px) {
 	.description{
 font-size:19px;
