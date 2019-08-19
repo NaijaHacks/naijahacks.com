@@ -5322,20 +5322,20 @@ a.list-group-item-danger.active:focus {
   border-top-right-radius: 3px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
-  color: inherit;
+  color: rgb(0, 0, 0);
 }
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
-  color: inherit;
+  color: rgb(0, 0, 0);
 }
 .panel-title > a,
 .panel-title > small,
 .panel-title > .small,
 .panel-title > small > a,
 .panel-title > .small > a {
-  color: inherit;
+  color: rgb(0, 0, 0);
 }
 .panel-footer {
   padding: 10px 15px;
