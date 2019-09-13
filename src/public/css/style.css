@@ -105,6 +105,72 @@ div.description .ofleaders{
 	text-align: center;
 	color: white;
 }
+#partners{
+	margin-top:5%;
+	background-color: #262a33;
+}
+.partner-h1{
+	color:#66e348;
+}
+#challenge{
+	margin-top:5%;
+}
+#challenge h5{
+	color:#C4C4C4;
+}
+.our-challenge{
+	color: #66E348;
+}
+.challenge-pic{
+	margin-top:2%;
+}
+.challenge-pic h4{
+	color:#C4C4C4;
+}
+#hackathon{
+	margin-top:6%;
+}
+#hackathon p{
+	color:#7F8693;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 28px;
+	letter-spacing: -0.08em;
+
+}
+.num-hack{
+	color: #323844;
+	font-size: 81px;
+}
+.hackply{
+	font-family: Montserrat;
+	font-style: normal;
+	color:white;
+	font-size:26px;
+	margin-left:-5%;
+}
+.hack-date{
+	color:#66E348 !important;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	/* identical to box height */
+	letter-spacing: 0.03em;
+	text-decoration-line: underline;
+}
+#prizes{
+	margin-top:5%;
+}
+.pri{
+	margin-top:2%;
+}
+hr{
+	color:white;
+}
 img{
 	width: 90%;
 
