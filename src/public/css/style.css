@@ -57,6 +57,9 @@ a:focus {
   border-radius: 5px;
   color: #66e348;
 }
+a.btn-green-border:hover{
+  color: white;
+}
 
 /* Header Styles */
 
