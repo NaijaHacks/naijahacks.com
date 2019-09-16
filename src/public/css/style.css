@@ -33,29 +33,29 @@ p {
 }
 
 .text-green {
-  color: #66e348;
+  color: #FF775F;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #66e348;
+  color: #FF775F;
   text-decoration: underline;
 }
 
 /* Button Styles */
 .btn-green {
   font-weight: 600;
-  background: #66e348;
+  background: #FF775F;
   border: 2px solid #555961;
   border-radius: 5px;
 }
 
 .btn-green-border {
   font-weight: 600;
-  border: 2px solid #66e348;
+  border: 2px solid #FF775F;
   border-radius: 5px;
-  color: #66e348;
+  color: #FF775F;
 }
 a.btn-green-border:hover{
   color: white;
@@ -85,7 +85,7 @@ div.description .ofleaders {
   margin-right: 6%;
 }
 .location {
-  color: #66e348;
+  color: #FF775F;
   font-size: 30px;
 }
 .date {
@@ -104,12 +104,12 @@ div.description .ofleaders {
   background-color: #262a33;
 }
 .team-section h1 {
-  color: #66e348;
+  color: #FF775F;
   text-align: center;
   padding-top: 2%;
 }
 .team-section h2 {
-  color: #66e348;
+  color: #FF775F;
   text-align: center;
   padding-bottom: 2%;
 }
@@ -145,7 +145,7 @@ div.description .ofleaders {
   margin-right: 6%;
 }
 .location {
-  color: #66e348;
+  color: #FF775F;
   font-size: 30px;
 }
 .date {
@@ -164,12 +164,12 @@ div.description .ofleaders {
   background-color: #262a33;
 }
 .team-section h1 {
-  color: #66e348;
+  color: #FF775F;
   text-align: center;
   padding-top: 2%;
 }
 .team-section h2 {
-  color: #66e348;
+  color: #FF775F;
   text-align: center;
   padding-bottom: 2%;
 }
@@ -184,7 +184,7 @@ p {
   background-color: #262a33;
 }
 .partner-h1 {
-  color: #66e348;
+  color: #FF775F;
 }
 #challenge {
   margin-top: 5%;
@@ -193,7 +193,7 @@ p {
   color: #c4c4c4;
 }
 .our-challenge {
-  color: #66e348;
+  color: #FF775F;
 }
 .challenge-pic {
   margin-top: 2%;
@@ -225,7 +225,7 @@ p {
   margin-left: -5%;
 }
 .hack-date {
-  color: #66e348 !important;
+  color: #FF775F !important;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
