@@ -16,6 +16,10 @@ h1 {
   font-weight: 600;
 }
 
+hr {
+  color: white;
+}
+
 h2 {
   font-size: 36px;
   font-weight: 500;
@@ -59,50 +63,6 @@ a:focus {
 .nav-link {
   font-size: 16px;
 }
-/* .navbg {
-  background-color: #262a33;
-  border-bottom: 1px solid #555961;
- 
-}
-.gaws {
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 100%;
-  height: 100vh;
-  border-radius: 1px solid red;
-}
-.ml-auto {
-  margin-right: 20%;
-  padding: 10px;
-}
-.navbar-brand {
-  margin-left: 10%;
-}
-.nav-item {
-  padding-left: 60px;
-}
-
-.nav-button {
-  background-color: transparent;
-  border: 2px solid #555961;
-  color: #555961;
-  border-radius: 5px;
-} */
-
-/* .footer {
-  width: 100%;
-  height: 5vh;
-  background-color: #fff;
-}
-.footer-align {
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-}
-.footer-content {
-  padding: 0 0.7%;
-  color: rgb(26, 29, 37);
-} */
 
 .description {
   font-size: 29px;
@@ -149,6 +109,134 @@ div.description .ofleaders {
   color: #66e348;
   text-align: center;
   padding-bottom: 2%;
+}
+
+.footer {
+  width: 100%;
+  height: 5vh;
+  background-color: #fff;
+}
+.footer-align {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.footer-content {
+  padding: 0 0.7%;
+  color: rgb(26, 29, 37);
+}
+.description {
+  font-size: 29px;
+  text-align: left;
+  margin-top: 5%;
+  color: #fffbfb;
+}
+.description-child {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 2%;
+  text-align: center;
+  color: #555961;
+  margin-right: 6%;
+}
+div.description .ofleaders {
+  margin-right: 6%;
+}
+.location {
+  color: #66e348;
+  font-size: 30px;
+}
+.date {
+  color: white;
+  font-size: 30px;
+}
+.venue {
+  color: white;
+  font-size: 30px;
+}
+.reg-btn {
+  margin: auto;
+}
+.team-section {
+  margin: auto;
+  background-color: #262a33;
+}
+.team-section h1 {
+  color: #66e348;
+  text-align: center;
+  padding-top: 2%;
+}
+.team-section h2 {
+  color: #66e348;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.team-section h3,
+h5,
+p {
+  text-align: center;
+  color: white;
+}
+#partners {
+  margin-top: 5%;
+  background-color: #262a33;
+}
+.partner-h1 {
+  color: #66e348;
+}
+#challenge {
+  margin-top: 5%;
+}
+#challenge h5 {
+  color: #c4c4c4;
+}
+.our-challenge {
+  color: #66e348;
+}
+.challenge-pic {
+  margin-top: 2%;
+}
+.challenge-pic h4 {
+  color: #c4c4c4;
+}
+#hackathon {
+  margin-top: 6%;
+}
+#hackathon p {
+  color: #7f8693;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.08em;
+}
+.num-hack {
+  color: #323844;
+  font-size: 81px;
+}
+.hackply {
+  font-family: Montserrat;
+  font-style: normal;
+  color: white;
+  font-size: 26px;
+  margin-left: -5%;
+}
+.hack-date {
+  color: #66e348 !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}
+#prizes {
+  margin-top: 5%;
+}
+.pri {
+  margin-top: 2%;
 }
 
 @media only screen and (max-width: 768px) {
